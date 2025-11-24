@@ -386,6 +386,7 @@ GameObject:
   - component: {fileID: 824572284}
   - component: {fileID: 824572287}
   - component: {fileID: 824572288}
+  - component: {fileID: 824572289}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -543,7 +544,23 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 7
   <Coin>k__BackingField: 0
-  <Health>k__BackingField: 10
+  <Stamina>k__BackingField: 10
+--- !u!114 &824572289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824572283}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c271ec09829d6f645a59a25f801e968e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 7
+  <Coin>k__BackingField: 0
+  <Stamina>k__BackingField: 10
 --- !u!1 &1261796117
 GameObject:
   m_ObjectHideFlags: 0
